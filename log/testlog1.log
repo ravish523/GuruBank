@@ -1,0 +1,10 @@
+2021-04-18 02:15:18,250 [main] INFO BaseClass - entering user id
+2021-04-18 02:15:18,438 [main] INFO BaseClass - entering pass
+2021-04-18 02:15:18,566 [main] INFO BaseClass - click on login button
+2021-04-18 02:15:19,043 [main] INFO BaseClass - verify login details...
+2021-04-18 02:15:21,060 [main] INFO BaseClass - accepting the alert..
+2021-04-18 02:18:58,459 [main] INFO BaseClass - entering user id
+2021-04-18 02:18:58,616 [main] INFO BaseClass - entering pass
+2021-04-18 02:18:58,726 [main] INFO BaseClass - click on login button
+2021-04-18 02:18:59,163 [main] INFO BaseClass - verify login details...
+2021-04-18 02:19:01,175 [main] INFO BaseClass - accepting the alert..
