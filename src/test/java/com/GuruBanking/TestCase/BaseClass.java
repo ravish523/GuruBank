@@ -13,8 +13,9 @@ package com.GuruBanking.TestCase;
 	import org.openqa.selenium.firefox.FirefoxDriver;
 	import org.openqa.selenium.ie.InternetExplorerDriver;
 	import org.testng.annotations.AfterClass;
-	import org.testng.annotations.BeforeClass;
-	import org.testng.annotations.Parameters;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 import com.GuruBanking.Utilities.ReadConfig;
 	
@@ -30,7 +31,7 @@ import com.GuruBanking.Utilities.ReadConfig;
 		    public static Logger logger;
 		  
 		    @Parameters("browser")  
-		    @BeforeClass
+		    @BeforeMethod
 		    public void setup(String br) throws InterruptedException
 		    {
 		    	logger=Logger.getLogger("BaseClass");
@@ -55,7 +56,7 @@ import com.GuruBanking.Utilities.ReadConfig;
 				 driver.get(baseURL);
 				
 		    }
-		    @AfterClass
+		    @AfterMethod
 		    public void tearDown()
 		    {
 		    	driver.quit();

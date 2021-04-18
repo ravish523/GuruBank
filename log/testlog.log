@@ -8,3 +8,159 @@
 2021-04-18 02:18:58,726 - BaseClass -INFO - click on login button
 2021-04-18 02:18:59,163 - BaseClass -INFO - verify login details...
 2021-04-18 02:19:01,175 - BaseClass -INFO - accepting the alert..
+2021-04-18 19:24:16,461 - BaseClass -INFO - Open the website..
+2021-04-18 19:24:16,686 - BaseClass -INFO - enter the userid..
+2021-04-18 19:24:17,186 - BaseClass -INFO - enter the pass..
+2021-04-18 19:24:17,981 - BaseClass -INFO - click on login..
+2021-04-18 19:24:27,031 - BaseClass -INFO - Manager page open..
+2021-04-18 19:24:27,227 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:24:29,349 - BaseClass -INFO - Customer form open..
+2021-04-18 19:24:29,761 - BaseClass -INFO - Enter char in Address box..
+2021-04-18 19:24:31,895 - BaseClass -INFO - verify error..
+2021-04-18 19:28:00,710 - BaseClass -INFO - Open the website..
+2021-04-18 19:28:00,756 - BaseClass -INFO - enter the userid..
+2021-04-18 19:28:01,026 - BaseClass -INFO - enter the pass..
+2021-04-18 19:28:01,146 - BaseClass -INFO - click on login..
+2021-04-18 19:28:02,179 - BaseClass -INFO - Manager page open..
+2021-04-18 19:28:02,180 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:28:02,741 - BaseClass -INFO - Customer form open..
+2021-04-18 19:28:02,744 - BaseClass -INFO - Enter char in Address box..
+2021-04-18 19:28:04,859 - BaseClass -INFO - verify error..
+2021-04-18 19:45:14,427 - BaseClass -INFO - Open the website..
+2021-04-18 19:45:14,480 - BaseClass -INFO - enter the userid..
+2021-04-18 19:45:14,640 - BaseClass -INFO - enter the pass..
+2021-04-18 19:45:14,752 - BaseClass -INFO - click on login..
+2021-04-18 19:45:16,559 - BaseClass -INFO - Manager page open..
+2021-04-18 19:45:16,563 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:45:17,369 - BaseClass -INFO - Customer form open..
+2021-04-18 19:45:17,372 - BaseClass -INFO - Enter char in Address box..
+2021-04-18 19:45:19,489 - BaseClass -INFO - verify error..
+2021-04-18 19:45:19,490 - BaseClass -INFO - try block is executing...
+2021-04-18 19:45:19,565 - BaseClass -INFO - Address text box is Accepting the integer or charcters...Pass
+2021-04-18 19:45:21,604 - BaseClass -INFO - Open the website..
+2021-04-18 19:45:21,605 - BaseClass -INFO - enter the userid..
+2021-04-18 19:46:31,725 - BaseClass -INFO - Open the website..
+2021-04-18 19:46:31,769 - BaseClass -INFO - enter the userid..
+2021-04-18 19:46:31,903 - BaseClass -INFO - enter the pass..
+2021-04-18 19:46:32,023 - BaseClass -INFO - click on login..
+2021-04-18 19:46:34,657 - BaseClass -INFO - Manager page open..
+2021-04-18 19:46:34,661 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:46:36,556 - BaseClass -INFO - Customer form open..
+2021-04-18 19:46:36,562 - BaseClass -INFO - Enter char in Address box..
+2021-04-18 19:46:38,684 - BaseClass -INFO - verify error..
+2021-04-18 19:46:38,685 - BaseClass -INFO - try block is executing...
+2021-04-18 19:46:38,748 - BaseClass -INFO - Address text box is Accepting the integer or charcters...Pass
+2021-04-18 19:46:40,757 - BaseClass -INFO - Open the website..
+2021-04-18 19:46:40,758 - BaseClass -INFO - enter the userid..
+2021-04-18 19:48:57,318 - BaseClass -INFO - Open the website..
+2021-04-18 19:48:57,360 - BaseClass -INFO - enter the userid..
+2021-04-18 19:48:57,729 - BaseClass -INFO - enter the pass..
+2021-04-18 19:48:57,837 - BaseClass -INFO - click on login..
+2021-04-18 19:48:59,191 - BaseClass -INFO - Manager page open..
+2021-04-18 19:48:59,193 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:48:59,747 - BaseClass -INFO - Customer form open..
+2021-04-18 19:48:59,750 - BaseClass -INFO - Enter char in Address box..
+2021-04-18 19:49:01,876 - BaseClass -INFO - verify error..
+2021-04-18 19:49:01,877 - BaseClass -INFO - try block is executing...
+2021-04-18 19:49:01,934 - BaseClass -INFO - Address text box is Accepting the integer or charcters...Pass
+2021-04-18 19:49:12,033 - BaseClass -INFO - Open the website..
+2021-04-18 19:49:12,036 - BaseClass -INFO - enter the userid..
+2021-04-18 19:49:12,251 - BaseClass -INFO - enter the pass..
+2021-04-18 19:49:12,390 - BaseClass -INFO - click on login..
+2021-04-18 19:49:15,531 - BaseClass -INFO - Manager page open..
+2021-04-18 19:49:15,537 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:49:16,248 - BaseClass -INFO - Customer form open..
+2021-04-18 19:49:16,249 - BaseClass -INFO - Enter integer in Address box..
+2021-04-18 19:49:18,378 - BaseClass -INFO - verify error..
+2021-04-18 19:49:18,378 - BaseClass -INFO - try block is executing...
+2021-04-18 19:49:18,423 - BaseClass -INFO - Address text box is Accepting the integer or charcters...Pass
+2021-04-18 19:49:28,115 - BaseClass -INFO - Open the website..
+2021-04-18 19:49:28,116 - BaseClass -INFO - enter the userid..
+2021-04-18 19:49:28,519 - BaseClass -INFO - enter the pass..
+2021-04-18 19:49:28,623 - BaseClass -INFO - click on login..
+2021-04-18 19:49:30,139 - BaseClass -INFO - Manager page open..
+2021-04-18 19:49:30,140 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:49:30,814 - BaseClass -INFO - Customer form open..
+2021-04-18 19:49:30,815 - BaseClass -INFO - Enter special char in Address box..
+2021-04-18 19:49:32,973 - BaseClass -INFO - verify error..
+2021-04-18 19:49:32,973 - BaseClass -INFO - try block is executing...
+2021-04-18 19:49:33,011 - BaseClass -INFO - Address text box is not Accepting special charcters...pass
+2021-04-18 19:49:50,701 - BaseClass -INFO - Open the website..
+2021-04-18 19:49:50,703 - BaseClass -INFO - enter the userid..
+2021-04-18 19:49:52,128 - BaseClass -INFO - enter the pass..
+2021-04-18 19:49:52,238 - BaseClass -INFO - click on login..
+2021-04-18 19:49:54,138 - BaseClass -INFO - Manager page open..
+2021-04-18 19:49:54,139 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:49:54,801 - BaseClass -INFO - Customer form open..
+2021-04-18 19:49:54,802 - BaseClass -INFO - Enter first space char in Address box..
+2021-04-18 19:49:56,959 - BaseClass -INFO - verify error..
+2021-04-18 19:49:56,959 - BaseClass -INFO - try block is executing...
+2021-04-18 19:49:57,027 - BaseClass -INFO - First character can not have space...Pass
+2021-04-18 19:50:12,967 - BaseClass -INFO - Open the website..
+2021-04-18 19:50:12,970 - BaseClass -INFO - enter the userid..
+2021-04-18 19:50:13,239 - BaseClass -INFO - enter the pass..
+2021-04-18 19:50:13,393 - BaseClass -INFO - click on login..
+2021-04-18 19:50:15,899 - BaseClass -INFO - Manager page open..
+2021-04-18 19:50:15,900 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:50:16,542 - BaseClass -INFO - Customer form open..
+2021-04-18 19:50:16,544 - BaseClass -INFO - Enter empty in Address box..
+2021-04-18 19:50:16,544 - BaseClass -INFO - set the empty address box..
+2021-04-18 19:50:18,732 - BaseClass -INFO - verify error..
+2021-04-18 19:50:18,733 - BaseClass -INFO - try block is executing...
+2021-04-18 19:50:18,792 - BaseClass -INFO - Address Field must not be blank...Pass
+2021-04-18 19:56:57,366 - BaseClass -INFO - Open the website..
+2021-04-18 19:56:57,408 - BaseClass -INFO - enter the userid..
+2021-04-18 19:56:57,866 - BaseClass -INFO - enter the pass..
+2021-04-18 19:56:57,979 - BaseClass -INFO - click on login..
+2021-04-18 19:57:00,044 - BaseClass -INFO - Manager page open..
+2021-04-18 19:57:00,049 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:57:00,667 - BaseClass -INFO - Customer form open..
+2021-04-18 19:57:00,673 - BaseClass -INFO - Enter char in Address box..
+2021-04-18 19:57:02,807 - BaseClass -INFO - verify error..
+2021-04-18 19:57:02,807 - BaseClass -INFO - try block is executing...
+2021-04-18 19:57:02,850 - BaseClass -INFO - Address text box is Accepting the integer or charcters...Pass
+2021-04-18 19:57:13,171 - BaseClass -INFO - Open the website..
+2021-04-18 19:57:13,174 - BaseClass -INFO - enter the userid..
+2021-04-18 19:57:13,332 - BaseClass -INFO - enter the pass..
+2021-04-18 19:57:13,484 - BaseClass -INFO - click on login..
+2021-04-18 19:57:15,143 - BaseClass -INFO - Manager page open..
+2021-04-18 19:57:15,147 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:57:15,691 - BaseClass -INFO - Customer form open..
+2021-04-18 19:57:15,693 - BaseClass -INFO - Enter integer in Address box..
+2021-04-18 19:57:17,835 - BaseClass -INFO - verify error..
+2021-04-18 19:57:17,836 - BaseClass -INFO - try block is executing...
+2021-04-18 19:57:17,889 - BaseClass -INFO - Address text box is Accepting the integer or charcters...Pass
+2021-04-18 19:57:27,223 - BaseClass -INFO - Open the website..
+2021-04-18 19:57:27,226 - BaseClass -INFO - enter the userid..
+2021-04-18 19:57:27,381 - BaseClass -INFO - enter the pass..
+2021-04-18 19:57:27,485 - BaseClass -INFO - click on login..
+2021-04-18 19:57:29,576 - BaseClass -INFO - Manager page open..
+2021-04-18 19:57:29,579 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:57:30,124 - BaseClass -INFO - Customer form open..
+2021-04-18 19:57:30,127 - BaseClass -INFO - Enter special char in Address box..
+2021-04-18 19:57:32,266 - BaseClass -INFO - verify error..
+2021-04-18 19:57:32,266 - BaseClass -INFO - try block is executing...
+2021-04-18 19:57:32,302 - BaseClass -INFO - Address text box is not Accepting special charcters...pass
+2021-04-18 19:57:41,912 - BaseClass -INFO - Open the website..
+2021-04-18 19:57:41,913 - BaseClass -INFO - enter the userid..
+2021-04-18 19:57:42,061 - BaseClass -INFO - enter the pass..
+2021-04-18 19:57:42,166 - BaseClass -INFO - click on login..
+2021-04-18 19:57:44,078 - BaseClass -INFO - Manager page open..
+2021-04-18 19:57:44,078 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:57:44,980 - BaseClass -INFO - Customer form open..
+2021-04-18 19:57:44,981 - BaseClass -INFO - Enter first space char in Address box..
+2021-04-18 19:57:47,169 - BaseClass -INFO - verify error..
+2021-04-18 19:57:47,169 - BaseClass -INFO - try block is executing...
+2021-04-18 19:57:47,228 - BaseClass -INFO - First character can not have space...Pass
+2021-04-18 19:57:57,359 - BaseClass -INFO - Open the website..
+2021-04-18 19:57:57,360 - BaseClass -INFO - enter the userid..
+2021-04-18 19:57:57,513 - BaseClass -INFO - enter the pass..
+2021-04-18 19:57:57,647 - BaseClass -INFO - click on login..
+2021-04-18 19:58:00,615 - BaseClass -INFO - Manager page open..
+2021-04-18 19:58:00,616 - BaseClass -INFO - Clicked on New Customer..
+2021-04-18 19:58:01,178 - BaseClass -INFO - Customer form open..
+2021-04-18 19:58:01,179 - BaseClass -INFO - Enter empty in Address box..
+2021-04-18 19:58:01,180 - BaseClass -INFO - set the empty address box..
+2021-04-18 19:58:03,285 - BaseClass -INFO - verify error..
+2021-04-18 19:58:03,285 - BaseClass -INFO - try block is executing...
+2021-04-18 19:58:03,344 - BaseClass -INFO - Address Field must not be blank...Pass

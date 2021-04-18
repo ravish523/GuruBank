@@ -8,19 +8,7 @@
   <test name="BankingApp Test">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.GuruBanking.TestCase.LoginTest"/>
+      <class name="com.GuruBanking.TestCase.M_NC_004"/>
     </classes>
   </test> <!-- BankingApp Test -->
-  <test name="BankingApp Test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.GuruBanking.TestCase.LoginTest">
-        <methods>
-          <include name="TestLogin"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.GuruBanking.TestCase.LoginTest -->
-    </classes>
-  </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [GuruBanking] -->

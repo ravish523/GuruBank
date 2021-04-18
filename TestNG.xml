@@ -10,7 +10,7 @@
 	<test name="BankingApp Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.GuruBanking.TestCase.LoginTest" />
+			<class name="com.GuruBanking.TestCase.M_NC_004" />
 		</classes>
 	</test>
 </suite>
