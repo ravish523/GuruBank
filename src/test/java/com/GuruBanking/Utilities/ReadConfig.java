@@ -53,5 +53,10 @@ Properties prop;
 		String iepath=prop.getProperty("iepath");
 		return iepath;
 	}
+	public int getCustomerid()
+	{
+		String id=prop.getProperty("customerid");
+		return Integer.parseInt(id);
+	}
 }
 

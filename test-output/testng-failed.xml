@@ -8,7 +8,7 @@
   <test name="BankingApp Test">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.GuruBanking.TestCase.M_NC_004"/>
+      <class name="com.GuruBanking.TestCase.EC_TC_001"/>
     </classes>
   </test> <!-- BankingApp Test -->
 </suite> <!-- Failed suite [GuruBanking] -->

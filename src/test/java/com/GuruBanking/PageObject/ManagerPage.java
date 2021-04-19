@@ -10,6 +10,10 @@ public class ManagerPage {
 	  
 	 @FindBy(xpath="//a[contains(text(),'New Customer')]")
 	 private WebElement txtNewCustomer;
+	 @FindBy(xpath="//a[contains(text(),'Edit Customer')]")
+	 private WebElement txtEditCustomer;
+	 @FindBy(xpath="//a[contains(text(),'Log out')]")
+	 private WebElement txtlogout;
 	 
 	 public ManagerPage(WebDriver d)
 	 {
@@ -20,6 +24,14 @@ public class ManagerPage {
 	 public void ClickOnNewCustomer()
 	 {
 		 txtNewCustomer.click();
+	 }
+	 public void ClickOnEditCustomer()
+	 {
+		 txtEditCustomer.click();
+	 }
+	 public void ClickOnLogOut()
+	 {
+		 txtlogout.click();
 	 }
 	 
 

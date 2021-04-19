@@ -164,3 +164,21 @@
 2021-04-18 19:58:03,285 - BaseClass -INFO - verify error..
 2021-04-18 19:58:03,285 - BaseClass -INFO - try block is executing...
 2021-04-18 19:58:03,344 - BaseClass -INFO - Address Field must not be blank...Pass
+2021-04-19 22:38:53,989 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-19 22:38:54,235 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-19 22:38:54,281 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-20 01:12:02,521 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-20 01:12:02,862 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-20 01:12:02,902 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-20 01:12:18,319 - BaseClass -INFO - Customer details adress updated Successfully!!!----Pass
+2021-04-20 01:15:30,172 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-20 01:15:30,216 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-20 01:15:30,259 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-20 01:20:26,045 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry Page not display----Faile
+2021-04-20 01:20:45,874 - BaseClass -INFO -  Customer details not updated Successfully!!!----Faile
+2021-04-20 01:24:38,718 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry Page not display----Faile
+2021-04-20 01:24:55,944 - BaseClass -INFO -  Customer details not updated Successfully!!!----Faile
+2021-04-20 01:26:28,895 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-20 01:26:28,925 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-20 01:26:28,957 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-20 01:26:43,944 - BaseClass -INFO - Customer details adress updated Successfully!!!----Pass
