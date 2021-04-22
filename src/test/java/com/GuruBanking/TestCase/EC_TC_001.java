@@ -3,7 +3,6 @@ package com.GuruBanking.TestCase;
 import java.io.IOException;
 
 import org.apache.commons.lang3.RandomStringUtils;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -58,8 +57,6 @@ public class EC_TC_001 extends BaseClass {
 		String add=RandomStringUtils.randomAlphabetic(10);
 		M_EditCustomer_FormPage mefp=new M_EditCustomer_FormPage(driver);
 		mefp.EnterCharToAddressBox(add+"@#%");
-		Thread.sleep(2000);
-		//mefp.BorderAroundAddressErrorMsg(driver);
 		Thread.sleep(2000);
 		mefp.ClickOnSubmit();
 		Thread.sleep(2000);
