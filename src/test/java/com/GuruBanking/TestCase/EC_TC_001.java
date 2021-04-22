@@ -1,5 +1,9 @@
 package com.GuruBanking.TestCase;
 
+import java.io.IOException;
+
+import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -26,10 +30,11 @@ public class EC_TC_001 extends BaseClass {
 		
 	}
 	@Test(priority=1)
-	public void CheckCustomerNameDisable()
+	public void CheckCustomerNameDisable() throws InterruptedException
 	{
+		Thread.sleep(2000);
 		M_EditCustomer_FormPage mefp=new M_EditCustomer_FormPage(driver);
-		//mefp.verifyEditCustomerPageAfterEnterId();
+		mefp.verifyEditCustomerPageAfterEnterId();
 		mefp.checkCustomerNmaeIsDisable();
 		mefp.DateOfBirthIsDisable();
 		mefp.checkGenderIsDisable();
@@ -38,13 +43,27 @@ public class EC_TC_001 extends BaseClass {
 	@Test(priority=2)
 	public void EditCustomerAdressWithChar() throws InterruptedException
 	{
+		String add=RandomStringUtils.randomAlphabetic(10);
 		M_EditCustomer_FormPage mefp=new M_EditCustomer_FormPage(driver);
-		mefp.EnterCharToAddressBox("my village is koll");
+		mefp.EnterCharToAddressBox(add);
 		mefp.ClickOnSubmit();
 		M_EditCustomer_FormConfirmationPage mefcp=new M_EditCustomer_FormConfirmationPage(driver);
-		//mefcp.verifyEditCustomerPageConfirmationAfterEditCustomer();
+		mefcp.verifyEditCustomerPageConfirmationAfterEditCustomer();
 		Thread.sleep(2000);
-		mefcp.CheckEnterAddressSameOrNot("my village is koll");
+		mefcp.CheckEnterAddressSameOrNot(add);
+	}
+	@Test(priority=3)
+	public void EditCustomerAdressWithInvaliedData() throws InterruptedException, IOException
+	{
+		String add=RandomStringUtils.randomAlphabetic(10);
+		M_EditCustomer_FormPage mefp=new M_EditCustomer_FormPage(driver);
+		mefp.EnterCharToAddressBox(add+"@#%");
+		Thread.sleep(2000);
+		//mefp.BorderAroundAddressErrorMsg(driver);
+		Thread.sleep(2000);
+		mefp.ClickOnSubmit();
+		Thread.sleep(2000);
+		mefp.verifyAfterEnter_InvaliedDataInAdress();
 	}
 
 }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="GuruBanking" duration-ms="29678" started-at="2021-04-19T19:56:15Z" finished-at="2021-04-19T19:56:44Z">
+  <suite name="GuruBanking" duration-ms="63063" started-at="2021-04-22T12:33:00Z" finished-at="2021-04-22T12:34:03Z">
     <groups>
     </groups>
-    <test name="BankingApp Test" duration-ms="29678" started-at="2021-04-19T19:56:15Z" finished-at="2021-04-19T19:56:44Z">
+    <test name="BankingApp Test" duration-ms="63063" started-at="2021-04-22T12:33:00Z" finished-at="2021-04-22T12:34:03Z">
       <class name="com.GuruBanking.TestCase.EC_TC_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="setup" is-config="true" duration-ms="7856" started-at="2021-04-20T01:26:15Z" finished-at="2021-04-20T01:26:23Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="setup" is-config="true" duration-ms="9807" started-at="2021-04-22T18:03:01Z" finished-at="2021-04-22T18:03:10Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="Precondition" is-config="true" duration-ms="5329" started-at="2021-04-20T01:26:23Z" finished-at="2021-04-20T01:26:28Z">
+        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="Precondition" is-config="true" duration-ms="4314" started-at="2021-04-22T18:03:10Z" finished-at="2021-04-22T18:03:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Precondition -->
-        <test-method status="PASS" signature="CheckCustomerNameDisable()[pri:1, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="CheckCustomerNameDisable" duration-ms="111" started-at="2021-04-20T01:26:28Z" finished-at="2021-04-20T01:26:28Z">
+        <test-method status="PASS" signature="CheckCustomerNameDisable()[pri:1, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="CheckCustomerNameDisable" duration-ms="2132" started-at="2021-04-22T18:03:15Z" finished-at="2021-04-22T18:03:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckCustomerNameDisable -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="1115" started-at="2021-04-20T01:26:28Z" finished-at="2021-04-20T01:26:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="1139" started-at="2021-04-22T18:03:17Z" finished-at="2021-04-22T18:03:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="setup" is-config="true" duration-ms="6570" started-at="2021-04-20T01:26:30Z" finished-at="2021-04-20T01:26:36Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="setup" is-config="true" duration-ms="7382" started-at="2021-04-22T18:03:18Z" finished-at="2021-04-22T18:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,77 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="Precondition" is-config="true" duration-ms="3548" started-at="2021-04-20T01:26:36Z" finished-at="2021-04-20T01:26:40Z">
+        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="Precondition" is-config="true" duration-ms="3690" started-at="2021-04-22T18:03:25Z" finished-at="2021-04-22T18:03:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Precondition -->
-        <test-method status="PASS" signature="EditCustomerAdressWithChar()[pri:2, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="EditCustomerAdressWithChar" duration-ms="3751" started-at="2021-04-20T01:26:40Z" finished-at="2021-04-20T01:26:43Z">
+        <test-method status="PASS" signature="EditCustomerAdressWithChar()[pri:2, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="EditCustomerAdressWithChar" duration-ms="3789" started-at="2021-04-22T18:03:29Z" finished-at="2021-04-22T18:03:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditCustomerAdressWithChar -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="1035" started-at="2021-04-20T01:26:43Z" finished-at="2021-04-20T01:26:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="1041" started-at="2021-04-22T18:03:33Z" finished-at="2021-04-22T18:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="setup" is-config="true" duration-ms="8819" started-at="2021-04-22T18:03:34Z" finished-at="2021-04-22T18:03:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="Precondition" is-config="true" duration-ms="4914" started-at="2021-04-22T18:03:43Z" finished-at="2021-04-22T18:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Precondition -->
+        <test-method status="FAIL" signature="EditCustomerAdressWithInvaliedData()[pri:3, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="EditCustomerAdressWithInvaliedData" duration-ms="14481" started-at="2021-04-22T18:03:48Z" finished-at="2021-04-22T18:04:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.GuruBanking.PageObject.M_EditCustomer_FormPage.verifyAfterEnter_InvaliedDataInAdress(M_EditCustomer_FormPage.java:148)
+	at com.GuruBanking.TestCase.EC_TC_001.EditCustomerAdressWithInvaliedData(EC_TC_001.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCustomerAdressWithInvaliedData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.GuruBanking.TestCase.EC_TC_001@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="1155" started-at="2021-04-22T18:04:02Z" finished-at="2021-04-22T18:04:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

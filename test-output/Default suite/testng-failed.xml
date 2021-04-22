@@ -10,6 +10,7 @@
     <classes>
       <class name="com.GuruBanking.TestCase.EC_TC_001">
         <methods>
+          <include name="EditCustomerAdressWithInvaliedData"/>
           <include name="EditCustomerAdressWithChar"/>
           <include name="CheckCustomerNameDisable"/>
         </methods>

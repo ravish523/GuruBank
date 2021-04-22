@@ -11,4 +11,17 @@
       <class name="com.GuruBanking.TestCase.EC_TC_001"/>
     </classes>
   </test> <!-- BankingApp Test -->
+  <test name="BankingApp Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.GuruBanking.TestCase.EC_TC_001">
+        <methods>
+          <include name="Precondition"/>
+          <include name="EditCustomerAdressWithInvaliedData"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.GuruBanking.TestCase.EC_TC_001 -->
+    </classes>
+  </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [GuruBanking] -->

@@ -182,3 +182,63 @@
 2021-04-20 01:26:28,925 - BaseClass -INFO - Date of birth Is Disable----Pass
 2021-04-20 01:26:28,957 - BaseClass -INFO - Gender Is Disable----Pass
 2021-04-20 01:26:43,944 - BaseClass -INFO - Customer details adress updated Successfully!!!----Pass
+2021-04-20 10:44:23,940 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry Page not display----Faile
+2021-04-20 10:51:37,028 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry Page Dispaly----Pass
+2021-04-20 10:51:37,104 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-20 10:51:37,154 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-20 10:51:37,223 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-20 11:02:57,668 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry Page Dispaly----Pass
+2021-04-20 11:02:57,745 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-20 11:02:57,797 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-20 11:02:57,851 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-20 11:03:17,082 - BaseClass -INFO -  Customer details not updated Successfully!!!----Faile
+2021-04-20 11:06:07,666 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry Page Dispaly----Pass
+2021-04-20 11:06:07,709 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-20 11:06:07,737 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-20 11:06:07,775 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-20 11:06:21,940 - BaseClass -INFO - Customer details updated Successfully!!!----Pass
+2021-04-20 11:06:24,053 - BaseClass -INFO - Customer details adress updated Successfully!!!----Pass
+2021-04-20 11:14:18,626 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry form Page Dispaly----Pass
+2021-04-20 11:14:18,707 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-20 11:14:18,760 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-20 11:14:18,832 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-20 11:14:33,063 - BaseClass -INFO - Customer details updated Successfully!!! Page Display----Pass
+2021-04-20 11:14:35,139 - BaseClass -INFO - Customer details adress updated Successfully!!! And same address----Pass
+2021-04-20 11:15:02,863 - BaseClass -INFO - Customer details updated Successfully!!! Page Display----Pass
+2021-04-20 11:28:36,800 - BaseClass -INFO - Customer details is  updated with invalied data----Faile
+2021-04-20 11:44:27,383 - BaseClass -INFO - Customer details is  updated with invalied data----Faile
+2021-04-20 11:48:13,354 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry form Page Dispaly----Pass
+2021-04-20 11:48:13,405 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-20 11:48:13,431 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-20 11:48:13,464 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-20 11:48:28,141 - BaseClass -INFO - Customer details updated Successfully!!! Page Display----Pass
+2021-04-20 11:48:30,217 - BaseClass -INFO - Customer details adress updated Successfully!!! And same address----Pass
+2021-04-20 11:48:51,590 - BaseClass -INFO - Customer details is  updated with invalied data----Faile
+2021-04-20 12:42:14,380 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry form Page Dispaly----Pass
+2021-04-20 12:42:14,456 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-20 12:42:14,506 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-20 12:42:14,574 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-20 12:42:39,803 - BaseClass -INFO - Customer details updated Successfully!!! Page Display----Pass
+2021-04-20 12:42:41,994 - BaseClass -INFO - Customer details adress updated Successfully!!! And same address----Pass
+2021-04-20 12:43:05,103 - BaseClass -INFO - Customer details is  updated with invalied data----Faile
+2021-04-22 17:33:41,910 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry form Page Dispaly----Pass
+2021-04-22 17:33:42,724 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-22 17:33:42,751 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-22 17:33:42,783 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-22 17:34:00,538 - BaseClass -INFO - Customer details updated Successfully!!! Page Display----Pass
+2021-04-22 17:34:02,619 - BaseClass -INFO - Customer details adress updated Successfully!!! And same address----Pass
+2021-04-22 17:34:24,448 - BaseClass -INFO - Customer details is  updated with invalied data----Faile
+2021-04-22 17:51:16,152 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry form Page Dispaly----Pass
+2021-04-22 17:51:16,203 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-22 17:51:16,252 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-22 17:51:16,294 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-22 17:51:31,999 - BaseClass -INFO - Customer details updated Successfully!!! Page Display----Pass
+2021-04-22 17:51:34,045 - BaseClass -INFO - Customer details adress updated Successfully!!! And same address----Pass
+2021-04-22 17:56:00,193 - BaseClass -INFO - Customer details is  updated with invalied data----Faile
+2021-04-22 18:03:17,287 - BaseClass -INFO -  Guru99 Bank Edit Customer Entry form Page Dispaly----Pass
+2021-04-22 18:03:17,332 - BaseClass -INFO - CustomerNmae Is Disable----Pass
+2021-04-22 18:03:17,357 - BaseClass -INFO - Date of birth Is Disable----Pass
+2021-04-22 18:03:17,390 - BaseClass -INFO - Gender Is Disable----Pass
+2021-04-22 18:03:31,353 - BaseClass -INFO - Customer details updated Successfully!!! Page Display----Pass
+2021-04-22 18:03:33,394 - BaseClass -INFO - Customer details adress updated Successfully!!! And same address----Pass
+2021-04-22 18:04:02,648 - BaseClass -INFO - Customer details is  updated with invalied data----Faile

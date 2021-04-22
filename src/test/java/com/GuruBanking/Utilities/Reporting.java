@@ -37,7 +37,7 @@ public class Reporting extends TestListenerAdapter{
 		extent=new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("hostname", "localhost");
-		extent.setSystemInfo("Environment", "QA");
+		extent.setSystemInfo("Environment", "Chrome85");
 		extent.setSystemInfo("tester name", "Ravish kumar");
 	}
 	public void onTestSucess(ITestResult tr)
@@ -48,8 +48,8 @@ public class Reporting extends TestListenerAdapter{
 	public void onTestFailure(ITestResult tr)
 	{
 		test=extent.createTest(tr.getName());
-		test.log(Status.PASS, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
-		String screenshotpath=System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
+		test.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
+		String screenshotpath=System.getProperty("user.dir")+"\\Screenshot\\"+tr.getName()+".png";
 		File f=new File(screenshotpath);
 		if(f.exists())
 		{

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-GuruBanking">
-              <span class="suite-name border-passed">GuruBanking</span>
+              <span class="suite-name border-failed">GuruBanking</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-GuruBanking" class="hide-methods failed suite-GuruBanking"> (hide)</a> <!-- hide-methods failed suite-GuruBanking -->
+                      <a href="#" panel-name="suite-GuruBanking" class="show-methods failed suite-GuruBanking"> (show)</a> <!-- show-methods failed suite-GuruBanking -->
+                    </span>
+                    <div class="method-list-content failed suite-GuruBanking">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GuruBanking" title="com.GuruBanking.TestCase.EC_TC_001" hash-for-method="EditCustomerAdressWithInvaliedData">EditCustomerAdressWithInvaliedData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-GuruBanking -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,6 +136,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-GuruBanking" class="panel GuruBanking">
+          <div class="suite-GuruBanking-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.GuruBanking.TestCase.EC_TC_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditCustomerAdressWithInvaliedData">
+                  </a> <!-- EditCustomerAdressWithInvaliedData -->
+                  <span class="method-name">EditCustomerAdressWithInvaliedData</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.GuruBanking.PageObject.M_EditCustomer_FormPage.verifyAfterEnter_InvaliedDataInAdress(M_EditCustomer_FormPage.java:148)
+	at com.GuruBanking.TestCase.EC_TC_001.EditCustomerAdressWithInvaliedData(EC_TC_001.java:68)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GuruBanking-class-failed -->
           <div class="suite-GuruBanking-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -200,20 +234,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'EditCustomerAdressWithChar')
+data.setCell(0, 1, 'EditCustomerAdressWithInvaliedData')
 data.setCell(0, 2, 'com.GuruBanking.TestCase.EC_TC_001')
-data.setCell(0, 3, 3751);
+data.setCell(0, 3, 14481);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'CheckCustomerNameDisable')
+data.setCell(1, 1, 'EditCustomerAdressWithChar')
 data.setCell(1, 2, 'com.GuruBanking.TestCase.EC_TC_001')
-data.setCell(1, 3, 111);
+data.setCell(1, 3, 3789);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CheckCustomerNameDisable')
+data.setCell(2, 2, 'com.GuruBanking.TestCase.EC_TC_001')
+data.setCell(2, 3, 2132);
 window.suiteTableData['GuruBanking']= { tableData: data, tableDiv: 'times-div-GuruBanking'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-GuruBanking">
               </div> <!-- times-div-GuruBanking -->
             </div> <!-- times-div -->
@@ -246,31 +284,49 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">Precondition</span>
-                <span class="method-start">7856 ms</span>
+                <span class="method-start">9807 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CheckCustomerNameDisable</span>
-                <span class="method-start">13185 ms</span>
+                <span class="method-start">14121 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13297 ms</span>
+                <span class="method-start">16254 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">14415 ms</span>
+                <span class="method-start">17396 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">Precondition</span>
-                <span class="method-start">20985 ms</span>
+                <span class="method-start">24778 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EditCustomerAdressWithChar</span>
-                <span class="method-start">24533 ms</span>
+                <span class="method-start">28468 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28286 ms</span>
+                <span class="method-start">32258 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">33300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Precondition</span>
+                <span class="method-start">42119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EditCustomerAdressWithInvaliedData</span>
+                <span class="method-start">47033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61549 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

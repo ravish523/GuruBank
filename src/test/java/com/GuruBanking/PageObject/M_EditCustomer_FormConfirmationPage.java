@@ -24,16 +24,16 @@ public class M_EditCustomer_FormConfirmationPage extends BaseClass {
 	public void verifyEditCustomerPageConfirmationAfterEditCustomer()
 	{
 		try{
-			if(driver.getTitle().contains(" Guru99 Bank Customer Registration Page "))
+			if(driver.getTitle().contains("Guru99 Bank Customer Registration Page"))
 			{
 				
-				logger.info( "Customer details updated Successfully!!!----Pass");
+				logger.info( "Customer details updated Successfully!!! Page Display----Pass");
 				Assert.assertTrue(true);
 			}
 			else
 			{
 				Thread.sleep(2000);
-				CaptureScreen(driver,"verifyForDeletedOrWrongId");
+				CaptureScreen(driver,"verifyEditCustomerPageConfirmationAfterEditCustomer");
 				Thread.sleep(2000);
 				logger.info(" Customer details not updated Successfully!!!----Faile");
 				Assert.assertTrue(false);
@@ -50,14 +50,14 @@ public class M_EditCustomer_FormConfirmationPage extends BaseClass {
 			if(getadress.getText().equals(address))
 			{
 				
-				logger.info( "Customer details adress updated Successfully!!!----Pass");
+				logger.info( "Customer details adress updated Successfully!!! And same address----Pass");
 				Assert.assertTrue(true);
 			}
 			else
 			{
 				CaptureScreen(driver,"CheckEnterAddressSameOrNot");
 				Thread.sleep(2000);
-				logger.info(" Customer address details not updated Successfully!!!----Faile");
+				logger.info(" Customer address details not updated Successfully!!!----Fail");
 				Assert.assertTrue(false);
 			}
 		}
